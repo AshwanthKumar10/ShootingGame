@@ -23,7 +23,8 @@ import java.util.Random;
     speed = 7 + (int) (rand.nextDouble() * score / 30);
 
     //cap missile speed
-    if (speed > 40) {speed = 40;}
+    if (speed > 40) {
+      speed = 40;}
 
     Bitmap[] image = new Bitmap[numFrames];
 
