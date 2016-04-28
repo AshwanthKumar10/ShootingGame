@@ -10,7 +10,7 @@ public class TopBorder extends GameObject {
   private Bitmap image;
 
   public TopBorder(Bitmap res, int x, int y, int h) {
-    height = 05;
+    height = h;
     width = 20;
 
     this.x = x;
